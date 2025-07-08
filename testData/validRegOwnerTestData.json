@@ -1,0 +1,17 @@
+[
+
+    {
+        "email": "saifan.aleksandr@floodouts.com",
+        "password": "BoBolets9%",
+        "fullName": "Saifan Aleksandr",
+        "DOB": "1990-05-22",
+        "BVNNumber": "01245763454",
+        "NINNumber": "01245763454",
+        "NINDocument": "tests\\UploadFiles\\qa-logo.png",
+        "fullName1": "Saifan Aleksandr",
+        "DOB1": "1980-05-22",
+        "BVNNumber1": "01245745454",
+        "NINNumber1": "01255763454",
+        "NINDocument1": "tests\\UploadFiles\\qa-logo.png"
+    }
+]

@@ -1,0 +1,19 @@
+[
+
+    {
+        "email": "saifan.aleksandr@floodouts.com",
+        "password": "BoBolets9%",
+        "CACNumber": "BN12345",
+        "CACCertificate" : "tests\\UploadFiles\\etn nylon.pdf",
+        "TINNumber": "TN24537484",
+        "proofOfAddress": "tests\\UploadFiles\\etn nylon.pdf",
+        "statusReport": "tests\\UploadFiles\\etn nylon.pdf",
+        "PEP": "No",
+        "SCUMLDocument": "tests\\UploadFiles\\etn nylon.pdf",
+        "CACBusinessDocument": "tests\\UploadFiles\\etn nylon.pdf",
+        "certicateIncorpNumber": "465000",
+        "certicateIncorpDocument": "tests\\UploadFiles\\etn nylon.pdf",
+        "TINDocument": "tests\\UploadFiles\\etn nylon.pdf"
+
+    }
+]

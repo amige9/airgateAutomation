@@ -1,0 +1,11 @@
+[
+    {
+        "email": "drake.carlisle@finestudio.org",
+        "password": "BoBolets9%",
+        "fullName": "saifan aleksandra",
+        "DOB": "1990-05-22",
+        "NINNumber": "01245763454",
+        "NINDocument": "tests\\UploadFiles\\qa-logo.png",
+        "addressDocument": "tests\\UploadFiles\\qa-logo.png"
+    }
+]

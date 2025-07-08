@@ -1,0 +1,12 @@
+[
+
+    {
+        "email": "saifan.aleksandr@floodouts.com",
+        "password": "BoBolets9%",
+        "CACNumber": "BN12345",
+        "CACCertificate" : "tests\\UploadFiles\\etn nylon.pdf",
+        "TINNumber": "23456788AS",
+        "ConstitutionDocument": "tests\\UploadFiles\\etn nylon.pdf",
+        "addressDocument": "tests\\UploadFiles\\etn nylon.pdf"
+    }
+]

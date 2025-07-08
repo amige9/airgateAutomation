@@ -1,0 +1,10 @@
+[
+    {
+        "email": "saifan.aleksandr@floodouts.com",
+        "password": "BoBolets9%",
+        "bank": "Gua",
+        "bankActNumber": "0037175981",
+        "bvn": "22222222222", 
+        "bankStatment": "tests\\UploadFiles\\qa-logo.png"
+    }
+]

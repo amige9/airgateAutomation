@@ -1,0 +1,42 @@
+[
+
+    {
+        "email": "jamiere.kierre@farmoaks.com",
+        "password": "BoBolets9%",
+        "filepath": "tests\\UploadFiles\\visa-live.mp4",
+        "bizName": "Assurance",
+        "bizEmail": "all about QA",
+        "website": "website.com",
+        "instagram": "instagram.com",
+        "facebook" : "facebook.com",
+        "twitter" : "twitter.com",
+        "scenerio": "Scenerio 1"
+
+    },
+    {
+        "email": "jamiere.kierre@farmoaks.com",
+        "password": "BoBolets9%",
+        "filepath": "tests\\UploadFiles\\etn nylon.pdf",
+        "bizName": "QA",
+        "bizEmail": "olams",
+        "website": "olamide",
+        "instagram": "insta",
+        "facebook" : "fb",
+        "twitter" : "twit",
+        "scenerio": "Scenerio 2"
+    },
+    {
+        "email": "jamiere.kierre@farmoaks.com",
+        "password": "BoBolets9%",
+        "filepath": "tests\\UploadFiles\\etn nylon.pdf",
+        "bizName": "1233",
+        "bizEmail": "jamiere",
+        "website": "",
+        "instagram": "",
+        "facebook" : "",
+        "twitter" : "",
+        "scenerio": "Scenerio 3"
+    }
+
+
+]

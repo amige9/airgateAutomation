@@ -1,0 +1,15 @@
+config:
+  target: https://uat.airgate.ng/login
+  engines:
+    playwright: { extendedMetrics: true}
+  processor: "./tests/artillery/createPaymentURL.js"
+scenarios:
+  - flow:
+      - function: "createPaymentURL" 
+
+
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/

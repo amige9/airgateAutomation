@@ -1,0 +1,34 @@
+config:
+  target: https://uat.airgate.ng/login
+  engines:
+    playwright: {}
+  processor: "./tests/artillery/verveCheckout.js"
+  phases:
+    # injects one user every second for 10 seconds
+    # - name: constantArrival
+    #   duration: 5
+    #   arrivalRate: 2
+    # Pause: 
+    # - name: pause
+    #   pause: 3 
+    # Ramp up: Ramp up the arrival rate of users for a given period of time
+    # - name: Ramp up
+    #   duration: 10
+    #   arrivalRate: 1
+    #   rampTo: 3
+    # Fixed Arrival : create a fix number of users wi
+    - name: Fixed Arrival
+      duration: 10
+      arrivalCount: 15
+
+scenarios:
+  - name: AIRGATE
+    engine: playwright
+    testFunction: "verveCheckoutArtilleryScript"
+
+# scenarios:
+#   - engine: playwright
+#     flow:
+#       - function: "merchantLogin"
+
+
