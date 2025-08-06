@@ -4,7 +4,7 @@ const { devices } = require('@playwright/test');
 
 const config = {
   testDir: './tests',
-  // retries: 1,
+  retries: 1,
   Worker: 2,
   
   /* Maximum time one test can run for. */
@@ -21,10 +21,15 @@ const config = {
     headless : false,
     screenshot : 'on',
     trace : 'on',//off,on
-    video: 'on'
+    video: 'on',
+    // Add environment variables to make them available in tests
+    extraHTTPHeaders: {
+      'X-Test-Config': 'mailosaur-enabled' // Optional: for test identification
+    }
     
   },
   globalSetup: "utils/globalSetup.js",
+  
   projects : [
     {
       name: 'chrome',

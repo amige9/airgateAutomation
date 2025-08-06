@@ -22,13 +22,14 @@
   "license": "ISC",
   "devDependencies": {
     "@faker-js/faker": "^8.3.1",
-    "@playwright/test": "^1.43.0",
+    "@playwright/test": "^1.54.2",
     "@types/node": "^20.10.4",
     "allure-playwright": "^2.15.1",
     "cross-env": "^7.0.3"
   },
   "dependencies": {
     "@cucumber/cucumber": "^10.1.0",
-    "dotenv": "^16.4.5"
+    "dotenv": "^16.4.5",
+    "mailosaur": "^8.8.1"
   }
 }

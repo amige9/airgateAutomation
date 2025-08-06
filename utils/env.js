@@ -8,6 +8,8 @@ class ENV{
     static FIRSTNAME = process.env.FIRSTNAME
     static LASTNAME = process.env.LASTNAME
     static REGEMAIL = process.env.REGEMAIL
+    static STATE = process.env.STATE
+    static CITY = process.env.CITY
     
 }
 
