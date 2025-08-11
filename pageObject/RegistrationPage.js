@@ -113,13 +113,8 @@ class RegistrationPage {
     async assertRegistrationIsSuccessfully() {
         // await expect(this.page).toHaveURL(this.expectedUrl);
         await this.verificationTextLocator.waitFor({ state: 'visible', timeout: 9000 });
-        await this.verificationTextLocator.waitFor({ state: 'attached', timeout: 9000 });
         expect(this.verificationTextLocator).toBeVisible;
         expect(this.welcomeText).toBeVisible;
-        const text = await this.verificationTextLocator.textContent();
-        console.log(text)
-        // expect(text).toEqual("Verification successful");
-
     }
 
 }

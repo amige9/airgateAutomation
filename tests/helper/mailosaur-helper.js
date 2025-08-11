@@ -62,7 +62,7 @@ class MailosaurHelper {
     extractCodeFromEmail(email) {
         const htmlContent = email.html?.body || '';
         const textContent = email.text?.body || '';
-        const fullContent = htmlContent + ' ' + textContent;
+        const fullContent = htmlContent + ' ' + textContent;d
 
         console.log('🔍 Looking for OTP in email content...');
 
