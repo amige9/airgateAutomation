@@ -56,7 +56,7 @@ test(`@checkout Successful Visa Card Checkout`, async ({ browser }) => {
 
     // Navigate to the Payment URL
     await checkoutPage.goTO();
-    await page.pause();
+    // await page.pause();
 
     // Click on the Proceed to Payment Button
     await checkoutPage.clickProceedToPaymentButton();

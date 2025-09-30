@@ -11,7 +11,7 @@
     "env:prodRegTest": "cross-env test_env=prod npx playwright test tests/merchantReg. --project=chrome --reporter=line,allure-playwright",
     "env:uatNonRegCompliance": "cross-env test_env=test npx playwright test tests/nonRegCompliance. --project=chrome --reporter=line,allure-playwright",
     "regression": "npx playwright test",
-    "checkoutTest": "npx playwright test --grep @checkout --project=chrome --reporter=line,allure-playwright",
+    "checkoutTest": "npx playwright test --grep @checkout --project=firefox --reporter=line,allure-playwright",
     "checkoutTestHeaded": "npx playwright test --grep @checkout --reporter=line,allure-playwright",
     "allurePlaywright": "npx playwright test tests/checkout.spec --reporter=line,allure-playwright",
     "safariNewConfig": "npx playwright test --config playwright.config1.js --project=safari",

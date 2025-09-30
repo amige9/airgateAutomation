@@ -27,7 +27,7 @@ class CheckoutPage{
   
 
     async goTO(){
-        await this.page.goto("https://qpay.airgate.ng/payment_process/06460a8f-4329-456c-a8b4-97c3b18c5413?mode=sandbox"); //Account Email angelos.ashir@fsitip.com
+        await this.page.goto("https://qpay.airgate.ng/payment_process/b6b7c0c8-f7e0-47f5-a07d-7807291d3341?mode=sandbox"); //Account Email keo.zayvon@freedrops.org
     }
     async clickProceedToPaymentButton(){
        await this.proceedToPaymentButton.click();

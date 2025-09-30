@@ -43,6 +43,13 @@ const config = {
       //   ignoreHTTPSErrors: true,
       //   permissions: ['geolocation']
       }
+    },
+        {
+      name: 'firefox',
+      use: {
+        browserName: 'firefox',
+        headless: false
+      }
     }
 
   ]
